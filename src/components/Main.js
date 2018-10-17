@@ -87,7 +87,7 @@ class ImgFigure extends React.Component {
       </figure>
     )
   }
-  
+
 }
 
 class ControllerUnit extends React.Component{
@@ -332,7 +332,7 @@ class AppComponent extends React.Component {
 
       imgFigures.push(<ImgFigure key={index} data={element} ref={'imgFigure' + index} arrange={this.state.imgsArrangeArr[index]} inverse={this.inverse(index)} center={this.center(index)}/>)
       
-      contorllerUnits.push(<ControllerUnit arrange={this.state.imgsArrangeArr[index]} inverse={this.inverse(index)} center={this.center(index)}/>)
+      contorllerUnits.push(<ControllerUnit key={index} arrange={this.state.imgsArrangeArr[index]} inverse={this.inverse(index)} center={this.center(index)}/>)
     });
 
     return (
