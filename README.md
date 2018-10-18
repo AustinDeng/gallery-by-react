@@ -1,7 +1,5 @@
 # Gallery By React
 
----
-
 使用 React.js 开发的图片画廊应用。[在线演示](https://austindeng.github.io/gallery-by-react/)
 
 ## 本地预览
@@ -77,4 +75,5 @@
 ## 最后
 
 :star2: 欢迎点赞收藏 :star2:
+
 :clap: :clap: 欢迎 Issues  :clap: 
