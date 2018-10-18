@@ -1,13 +1,13 @@
-'use strict';
-let path = require('path');
-let defaultSettings = require('./defaults');
+'use strict'
+let path = require('path')
+let defaultSettings = require('./defaults')
 
 // Additional npm or bower modules to include in builds
 // Add all foreign plugins you may need into this array
 // @example:
 // let npmBase = path.join(__dirname, '../node_modules');
 // let additionalPaths = [ path.join(npmBase, 'react-bootstrap') ];
-let additionalPaths = [];
+let additionalPaths = []
 
 module.exports = {
   additionalPaths: additionalPaths,
